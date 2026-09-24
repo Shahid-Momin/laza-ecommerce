@@ -187,7 +187,7 @@ class _LoginScreenState extends State<LoginScreen> {
 
                     // Email / Username
                     CustomTextField(
-                      label: 'Username',
+                      label: 'Enter your email',
                       controller: _usernameController,
                       keyboardType: TextInputType.emailAddress,
                       isDarkMode: isDark,
